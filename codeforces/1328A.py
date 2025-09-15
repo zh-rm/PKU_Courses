@@ -1,0 +1,1 @@
+print(*(0 if a % b == 0 else b - a % b for a,b in (map(int, input().split()) for _ in range(int(input())))), sep = "\n")
